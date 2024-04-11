@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asad's Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="left" href="./index.html">
+                <h1>Asad's Portfolio</h1>
+            </a>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="FirstSection">
+            <div class="LeftSection">
+                Hi, I am<br> <span class="purple">Asad Riaz.</span>
+                <br>I am a<br> <span id="element"></span><br>
+                <button id="github-btn" class="btn">Visit Github</button>
+                <button id="download-btn" class="btn">Download Resume</button>
+            </div>
+            <div class="RightSection">
+                <img src="./assets/asad.png" alt="Logo">
+            </div>
+
+
+
+        </section>
+        <hr />
+        <section class="secondSection">
+            <span class="gray">What I Have Done So Far</span>
+            <h2>Work Experience</h2>
+
+
+            <div class="box">
+
+                <div class="vertical">
+                    <img class=image-top src="./assets/piaic.png" alt="Company Logo">
+                    <div class="vertical-title">
+                        Development Team Lead
+                        at PIAIC (2024-Present)
+                    </div>
+                    <div class="vertical-desc">
+
+                        <pre>
+Contributions:
+
+Led a team of beginner students, providing guidance, 
+mentorship and support in their
+learning journey.
+
+Created a collaborative and inclusive environment 
+to foster growth and development among team
+members.
+
+Designed customized learning plans tailored to the 
+needs of individual learners and facilitated interactive
+workshops and activities to enhance skill acquisition
+ and comprehension.</pre>
+                    </div>
+
+                </div>
+
+
+                <div class="vertical">
+                    <img  class=image-top src="./assets/panaverse.png" alt="Company Logo">
+                    <div class="vertical-title">
+                        Teaching Assistant (2024-Present)
+                    </div>
+                    <div class="vertical-desc">
+
+                        <pre>
+Contributions:
+
+Led a team of beginner students, providing guidance, 
+mentorship and support in their
+learning journey.
+
+Created a collaborative and inclusive environment 
+to foster growth and development among team
+members.
+
+Designed customized learning plans tailored to the 
+needs of individual learners and facilitated interactive
+workshops and activities to enhance skill acquisition
+ and comprehension.</pre>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Asad's Web Dev Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Skills</li>
+                    <li>Projects</li>
+                    <li>Pricing</li>
+                    <li>Plans</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Github</li>
+                    <li>LinkedIn</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; AsadPortfolio.com | All Rights Reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Frontend', 'Developer.', "Frontend Developer."],
+            typeSpeed: 70,
+        });
+    </script>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
